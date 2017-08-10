@@ -16,7 +16,7 @@
                     font-weight:bold;
                 }
                 .titre{
-                    font-size:20pt;
+                    font-size:16pt;
                     font-weight:bold;
                 }
                 .info{
@@ -50,8 +50,8 @@
                 }
 
             </style>
-            <div class="row" style="height:30mm">&#160;</div>
-            <div class="row" style="margin-bottom:10mm">
+            <div class="row">&#160;</div>
+            <div class="row" style="margin-top:10mm;margin-bottom:10mm">
                 <div class="col-xs-7 titre">
                     <span t-if="o.type == 'out_invoice' and (o.state == 'open' or o.state == 'paid')">Facture</span>
                     <span t-if="o.type == 'out_invoice' and o.state == 'proforma2'">PRO-FORMA</span>
