@@ -3,4 +3,5 @@
 import is_immatriculation
 import sale
 import account_invoice
+import product
 

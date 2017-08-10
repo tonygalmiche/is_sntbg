@@ -28,6 +28,8 @@ InfoSaône - Module Odoo pour SNTBG
         'views/report_invoice.xml',
         'views/sale_view.xml',
         'views/is_immatriculation_view.xml',
+        'views/product_view.xml',
+        'views/account_invoice_view.xml',
     ],
     'installable': True,
     'application': True,
