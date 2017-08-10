@@ -50,7 +50,7 @@
                 }
 
             </style>
-            <div class="row" style="height:20mm">&#160;</div>
+            <div class="row" style="height:30mm">&#160;</div>
             <div class="row" style="margin-bottom:10mm">
                 <div class="col-xs-7 titre">
                     <span t-if="o.type == 'out_invoice' and (o.state == 'open' or o.state == 'paid')">Facture</span>
