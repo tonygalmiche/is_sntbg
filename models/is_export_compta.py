@@ -65,7 +65,6 @@ class is_export_compta(models.Model):
                 email_vals.update({
                     'subject'       : 'Export compta Odoo',
                     'email_to'      : email, 
-                    'email_cc'      : email,
                     'email_from'    : email, 
                     'body_html'     : body_html.encode('utf-8'), 
                     'attachment_ids': [(6, 0, [attachment_id.id])] 
