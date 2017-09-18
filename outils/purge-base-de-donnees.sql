@@ -18,6 +18,7 @@ delete from stock_picking;
 -- Compta --
 delete from account_move;
 delete from account_move_line;
+delete from account_partial_reconcile;
 
 
 -- Commandes --
